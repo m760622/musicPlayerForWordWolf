@@ -13,6 +13,7 @@
 		1506B9672073627E000CB0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1506B9662073627E000CB0A7 /* Assets.xcassets */; };
 		1506B96A2073627E000CB0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1506B9682073627E000CB0A7 /* LaunchScreen.storyboard */; };
 		1506B9752073627E000CB0A7 /* musicPlayerForWordWolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1506B9742073627E000CB0A7 /* musicPlayerForWordWolfTests.swift */; };
+		154E76DE207363CF009ED400 /* 午後のカフェ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 154E76DD207363CF009ED400 /* 午後のカフェ.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1506B9702073627E000CB0A7 /* musicPlayerForWordWolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPlayerForWordWolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1506B9742073627E000CB0A7 /* musicPlayerForWordWolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayerForWordWolfTests.swift; sourceTree = "<group>"; };
 		1506B9762073627E000CB0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E76DD207363CF009ED400 /* 午後のカフェ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "午後のカフェ.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1506B9662073627E000CB0A7 /* Assets.xcassets */,
 				1506B9682073627E000CB0A7 /* LaunchScreen.storyboard */,
 				1506B96B2073627E000CB0A7 /* Info.plist */,
+				154E76DD207363CF009ED400 /* 午後のカフェ.mp3 */,
 			);
 			path = musicPlayerForWordWolf;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1506B96A2073627E000CB0A7 /* LaunchScreen.storyboard in Resources */,
+				154E76DE207363CF009ED400 /* 午後のカフェ.mp3 in Resources */,
 				1506B9672073627E000CB0A7 /* Assets.xcassets in Resources */,
 				1506B9652073627D000CB0A7 /* Main.storyboard in Resources */,
 			);

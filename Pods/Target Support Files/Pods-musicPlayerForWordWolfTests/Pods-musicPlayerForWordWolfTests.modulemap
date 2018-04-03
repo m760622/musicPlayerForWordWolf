@@ -1,0 +1,6 @@
+framework module Pods_musicPlayerForWordWolfTests {
+  umbrella header "Pods-musicPlayerForWordWolfTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

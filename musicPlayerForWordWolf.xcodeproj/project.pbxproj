@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10AD7A234D7166060A4D8945 /* Pods_musicPlayerForWordWolfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80EE3B3CA931FE443F85DFE /* Pods_musicPlayerForWordWolfTests.framework */; };
 		1506B9602073627D000CB0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1506B95F2073627D000CB0A7 /* AppDelegate.swift */; };
 		1506B9622073627D000CB0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1506B9612073627D000CB0A7 /* ViewController.swift */; };
 		1506B9652073627D000CB0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1506B9632073627D000CB0A7 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		1506B96A2073627E000CB0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1506B9682073627E000CB0A7 /* LaunchScreen.storyboard */; };
 		1506B9752073627E000CB0A7 /* musicPlayerForWordWolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1506B9742073627E000CB0A7 /* musicPlayerForWordWolfTests.swift */; };
 		154E76DE207363CF009ED400 /* 午後のカフェ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 154E76DD207363CF009ED400 /* 午後のカフェ.mp3 */; };
+		9F0868AA5CE1F174C9F91498 /* Pods_musicPlayerForWordWolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A038543E1547A2D1515509 /* Pods_musicPlayerForWordWolf.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		1506B9742073627E000CB0A7 /* musicPlayerForWordWolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayerForWordWolfTests.swift; sourceTree = "<group>"; };
 		1506B9762073627E000CB0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154E76DD207363CF009ED400 /* 午後のカフェ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "午後のカフェ.mp3"; sourceTree = "<group>"; };
+		77A038543E1547A2D1515509 /* Pods_musicPlayerForWordWolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musicPlayerForWordWolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		998B74D26B83AA6DE74FC000 /* Pods-musicPlayerForWordWolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPlayerForWordWolfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-musicPlayerForWordWolfTests/Pods-musicPlayerForWordWolfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C612381759B10F11886344F /* Pods-musicPlayerForWordWolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPlayerForWordWolfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-musicPlayerForWordWolfTests/Pods-musicPlayerForWordWolfTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6FB9D95DFB814AE93CCBC28 /* Pods-musicPlayerForWordWolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPlayerForWordWolf.release.xcconfig"; path = "Pods/Target Support Files/Pods-musicPlayerForWordWolf/Pods-musicPlayerForWordWolf.release.xcconfig"; sourceTree = "<group>"; };
+		D80EE3B3CA931FE443F85DFE /* Pods_musicPlayerForWordWolfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musicPlayerForWordWolfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79441D9BFAE489AE5CDE360 /* Pods-musicPlayerForWordWolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPlayerForWordWolf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-musicPlayerForWordWolf/Pods-musicPlayerForWordWolf.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0868AA5CE1F174C9F91498 /* Pods_musicPlayerForWordWolf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AD7A234D7166060A4D8945 /* Pods_musicPlayerForWordWolfTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				1506B95E2073627D000CB0A7 /* musicPlayerForWordWolf */,
 				1506B9732073627E000CB0A7 /* musicPlayerForWordWolfTests */,
 				1506B95D2073627D000CB0A7 /* Products */,
+				ABEE5B9CFA6AE2DA972DFDD9 /* Pods */,
+				E28F2A2088A15163C8A24260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,26 @@
 			path = musicPlayerForWordWolfTests;
 			sourceTree = "<group>";
 		};
+		ABEE5B9CFA6AE2DA972DFDD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79441D9BFAE489AE5CDE360 /* Pods-musicPlayerForWordWolf.debug.xcconfig */,
+				B6FB9D95DFB814AE93CCBC28 /* Pods-musicPlayerForWordWolf.release.xcconfig */,
+				998B74D26B83AA6DE74FC000 /* Pods-musicPlayerForWordWolfTests.debug.xcconfig */,
+				9C612381759B10F11886344F /* Pods-musicPlayerForWordWolfTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E28F2A2088A15163C8A24260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77A038543E1547A2D1515509 /* Pods_musicPlayerForWordWolf.framework */,
+				D80EE3B3CA931FE443F85DFE /* Pods_musicPlayerForWordWolfTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1506B9792073627E000CB0A7 /* Build configuration list for PBXNativeTarget "musicPlayerForWordWolf" */;
 			buildPhases = (
+				7EF9DDBD8A5D0B853AE21715 /* [CP] Check Pods Manifest.lock */,
 				1506B9582073627D000CB0A7 /* Sources */,
 				1506B9592073627D000CB0A7 /* Frameworks */,
 				1506B95A2073627D000CB0A7 /* Resources */,
+				D4A20B913EB7281A0A12730B /* [CP] Embed Pods Frameworks */,
+				0E442F14A61B476729FFA54E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1506B97C2073627E000CB0A7 /* Build configuration list for PBXNativeTarget "musicPlayerForWordWolfTests" */;
 			buildPhases = (
+				BE437917F260D58DE4F1894F /* [CP] Check Pods Manifest.lock */,
 				1506B96C2073627E000CB0A7 /* Sources */,
 				1506B96D2073627E000CB0A7 /* Frameworks */,
 				1506B96E2073627E000CB0A7 /* Resources */,
+				199B8506BCB01A4CEB469CF7 /* [CP] Embed Pods Frameworks */,
+				9E953D1942F68A73C4ADB805 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,110 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E442F14A61B476729FFA54E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPlayerForWordWolf/Pods-musicPlayerForWordWolf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199B8506BCB01A4CEB469CF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPlayerForWordWolfTests/Pods-musicPlayerForWordWolfTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF9DDBD8A5D0B853AE21715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-musicPlayerForWordWolf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E953D1942F68A73C4ADB805 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPlayerForWordWolfTests/Pods-musicPlayerForWordWolfTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE437917F260D58DE4F1894F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-musicPlayerForWordWolfTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A20B913EB7281A0A12730B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-musicPlayerForWordWolf/Pods-musicPlayerForWordWolf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPlayerForWordWolf/Pods-musicPlayerForWordWolf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1506B9582073627D000CB0A7 /* Sources */ = {
@@ -360,15 +502,13 @@
 		};
 		1506B97A2073627E000CB0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79441D9BFAE489AE5CDE360 /* Pods-musicPlayerForWordWolf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65VW7XZNV5;
 				INFOPLIST_FILE = musicPlayerForWordWolf/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yamakentoc.musicPlayerForWordWolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -378,15 +518,13 @@
 		};
 		1506B97B2073627E000CB0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FB9D95DFB814AE93CCBC28 /* Pods-musicPlayerForWordWolf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65VW7XZNV5;
 				INFOPLIST_FILE = musicPlayerForWordWolf/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yamakentoc.musicPlayerForWordWolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -396,17 +534,14 @@
 		};
 		1506B97D2073627E000CB0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998B74D26B83AA6DE74FC000 /* Pods-musicPlayerForWordWolfTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65VW7XZNV5;
 				INFOPLIST_FILE = musicPlayerForWordWolfTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yamakentoc.musicPlayerForWordWolfTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -417,17 +552,14 @@
 		};
 		1506B97E2073627E000CB0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C612381759B10F11886344F /* Pods-musicPlayerForWordWolfTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65VW7XZNV5;
 				INFOPLIST_FILE = musicPlayerForWordWolfTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yamakentoc.musicPlayerForWordWolfTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

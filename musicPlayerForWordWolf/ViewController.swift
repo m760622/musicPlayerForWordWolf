@@ -7,19 +7,50 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+    
+    var audioPlayer: AVAudioPlayer!
 
+    @IBOutlet weak var musicButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setMusic()
+    }
+    
+    func setMusic() {
+        let audioPath = Bundle.main.path(forResource: "午後のカフェ", ofType:"mp3")!
+        let audioUrl = URL(fileURLWithPath: audioPath)
+        var audioError:NSError?
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: audioUrl)
+        } catch let error as NSError {
+            audioError = error
+            audioPlayer = nil
+        }
+        if let error = audioError {
+            print("Error \(error.localizedDescription)")
+        }
+        audioPlayer.delegate = self
+        audioPlayer.prepareToPlay()
+        audioPlayer.play()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
-
+    @IBAction func tapMusicButton(_ sender: Any) {
+        if audioPlayer.isPlaying {
+            audioPlayer.stop()
+            musicButton.setTitle("Stop", for: UIControlState())
+        } else {
+            audioPlayer.play()
+            musicButton.setTitle("Play", for: UIControlState())
+        }
+    }
+    
 }
 
